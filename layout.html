@@ -89,5 +89,71 @@
         <dt> Best Football Food </dt>
         <dd> Nachos </dd>
     </section>
+
+    <!--Create two forms with identical content-->
+    <section>
+      This is the Get form:
+      <!--One form should submit via a get-->
+      <form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="get">
+        <!--A text input with a name attribute of 'text_input'-->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="text_input"/>
+
+        <!--A number input with a name attribute of 'numerical_input'-->
+        <label for="number">Number:</label>
+        <input type="number" id="number" name="numerical_input"/>
+        
+        <!--A password input with a name attribute of 'password_input'-->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password_input"/>
+        
+        <!--A set of radio inputs, named 'candy', in the order snickers, skittles, mentos -->
+        <p> Favorite Candy: 
+        <label for="c1">Snickers</label>
+        <input type="radio" name="candy" id="c1" value="Snickers"/>
+        <label for="c2">Skittles</label>
+        <input type="radio" name="candy" id="c2" value="Skittles"/>
+        <label for="c3">Mentos</label>
+        <input type="radio" name="candy" id="c3" value="Mentos"/>
+        </p>
+
+        <input type="submit" value="Submit Form">
+        </form>
+
+        <!--One form should submit via a post-->
+        This is the Post form:
+        <form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="post">
+        <!--A text input with a name attribute of 'text_input'-->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="text_input"/>
+
+        <!--A number input with a name attribute of 'numerical_input'-->
+        <label for="number">Number:</label>
+        <input type="number" id="number" name="numerical_input"/>
+        
+        <!--A password input with a name attribute of 'password_input'-->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password_input"/>
+        
+        <!--A set of radio inputs, named 'candy', in the order snickers, skittles, mentos -->
+        <p> Favorite Candy: 
+        <label for="c1">Snickers</label>
+        <input type="radio" name="candy" id="c1" value="Snickers"/>
+        <label for="c2">Skittles</label>
+        <input type="radio" name="candy" id="c2" value="Skittles"/>
+        <label for="c3">Mentos</label>
+        <input type="radio" name="candy" id="c3" value="Mentos"/>
+        </p>
+
+        <input type="submit" value="Submit Form">
+        </form>
+    </section>
+
+    <section>
+    <div class="outer-content">
+      <div class="inner-content">
+      </div>
+    </div>
+    </section>
   </body>
  </html>
