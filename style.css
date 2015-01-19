@@ -37,3 +37,9 @@ dt:hover + dd {background-color: #800080;}
 	width: 75%;
 	margin: 0 auto; /*http://stackoverflow.com/questions/114543/horizontally-center-a-div-in-a-div*/
 }
+
+/*Have an image that is 100x125px sit in the upper left of those two paragraphs that the text wraps around*/
+img {
+	width:100px;
+	height:125px; 
+	float: left;}
