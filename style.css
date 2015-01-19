@@ -22,4 +22,18 @@ tbody tr:nth-child(even) {background-color: #ADD8E6;}
 /*When you hover over the dd item, it should not turn purple*/
 dt:hover + dd {background-color: #800080;}
 
+/*Outer div aligned to the left side of the page and takes up 3/4 of the page width, and has a space of 20px between it and the previous element*/
+/*Its background should be pink*/
+.outer-content{
+	background-color: #FF69B4;
+	margin-top: 20px;
+	width: 75%;
+	padding: 10px;
+}
 
+/*Inner-content div should have a background of blue, and should take up 3/4 of the parents div's width, and it should be centered*/
+.inner-content{
+	background-color: blue;
+	width: 75%;
+	margin: 0 auto; /*http://stackoverflow.com/questions/114543/horizontally-center-a-div-in-a-div*/
+}
