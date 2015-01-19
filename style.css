@@ -18,3 +18,8 @@ tbody tr:nth-child(odd) {background-color: #77ff77;}
 /*Even non-header/footer rows should have a light blue background*/
 tbody tr:nth-child(even) {background-color: #ADD8E6;}
 
+/*When you hover over a dt entry, its dd item should get a purple background*/
+/*When you hover over the dd item, it should not turn purple*/
+dt:hover + dd {background-color: #800080;}
+
+
